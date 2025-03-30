@@ -1,7 +1,7 @@
 // Import required Deno modules
-import { ensureDir } from 'https://deno.land/std/fs/ensure_dir.ts';
-import { copy as copySync } from 'https://deno.land/std/fs/copy.ts';
-import { resolve } from 'https://deno.land/std/path/mod.ts';
+import { ensureDir } from 'jsr:@std/fs@1/ensure-dir';
+import { copy as copySync } from 'jsr:@std/fs@1/copy';
+import { resolve } from 'jsr:@std/path@1';
 
 interface DirectoryInput {
   projectRoot: string;
