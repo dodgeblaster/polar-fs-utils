@@ -1,0 +1,15 @@
+{
+  "name": "@polar/fs-utils",
+  "version": "0.1.0",
+  "exports": "./mod.ts",
+  "tasks": {
+    "test": "deno test --allow-write --allow-read --allow-run",
+    "test:coverage": "deno test --coverage --allow-write --allow-read --allow-run"
+  },
+  "fmt": {
+    "lineWidth": 100,
+    "indentWidth": 2,
+    "singleQuote": true
+  },
+  "license": "MIT"
+}
