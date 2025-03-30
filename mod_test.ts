@@ -10,7 +10,7 @@ import {
   removeFile,
   writeFile,
   zipFolder,
-} from './main.ts';
+} from './mod.ts';
 
 // Test setup: Create a temporary test directory
 const TEST_ROOT = './test_tmp';
